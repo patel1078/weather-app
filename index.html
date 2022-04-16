@@ -15,34 +15,44 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>New York</h1>
-        <ul>
-          <li>Friday 05:00</li>
-          <li>Cloudy</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Cloudy"
-            />
-            55°F | °C
-          </div>
-          <div class="col-6">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1>New York</h1>
             <ul>
-              <li>Precipitation: 15%</li>
-              <li>Humidity: 66%</li>
-              <li>Wind: 11 mph</li>
+              <li>Friday 05:00</li>
+              <li>Cloudy</li>
             </ul>
           </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Cloudy"
+                  class="float-left"
+                />
+                <div class="float-left">
+                  <strong>55</strong
+                  ><span class="units">°F | <a href="#"> °C</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 15%</li>
+                <li>Humidity: 66%</li>
+                <li>Wind: 11 mph</li>
+              </ul>
+            </div>
+          </div>
+          <small>
+            <a href="https://github.com/patel1078" target="_blank">
+              Open-source code
+            </a>
+            by Jinal Patel
+          </small>
         </div>
-        <small>
-          <a href="https://github.com/patel1078" target="_blank">
-            Open-source code
-          </a>
-          by Jinal Patel
-        </small>
       </div>
     </div>
     <script src="src/app.js"></script>
