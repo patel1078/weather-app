@@ -1,5 +1,9 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://images.newscientist.com/wp-content/uploads/2020/05/22112120/sagdig_opo0431b_web.jpg?crop=16:9,smart&width=1200&height=675&upscale=true");
+}
+.container {
+  color: cadetblue;
 }
 
 h1 {
@@ -18,10 +22,10 @@ ul {
 
 li {
   list-style: none;
-  color: rgb(214, 129, 18);
+  color: rgb(54, 33, 5);
   padding: 0;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 19px;
   text-align: left;
   text-transform: capitalize;
@@ -34,14 +38,17 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background-color: paleturquoise;
+  border-radius: 20px;
 }
 
 .weather-app {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 20px solid #021a30;
+  border-radius: 30px;
+  background-image: linear-gradient(red, yellow);
 }
 
 .overview {
