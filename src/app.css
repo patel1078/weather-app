@@ -93,3 +93,17 @@ li:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
+#forecast {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 10px solid #021a30;
+  border-radius: 30px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.weather-forecast-date {
+  font-size: large;
+  color: rgb(236, 240, 243);
+}
